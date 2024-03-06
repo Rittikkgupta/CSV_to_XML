@@ -3,12 +3,12 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 from datetime import datetime
 
-reservation_data = pd.read_csv('t/reservation.csv', encoding='ISO-8859-1')
-people_data = pd.read_csv('t/people.csv', encoding='ISO-8859-1')
-hotel_data = pd.read_csv('t/hotel.csv', encoding='ISO-8859-1')
-client_data = pd.read_csv('t/client.csv', encoding='ISO-8859-1')
-service_data = pd.read_csv('t/service.csv', encoding='ISO-8859-1')
-client_service_data = pd.read_csv('t/clientservice.csv', encoding='ISO-8859-1')
+reservation_data = pd.read_csv('CSV_Files/reservation.csv', encoding='ISO-8859-1')
+people_data = pd.read_csv('CSV_Files/people.csv', encoding='ISO-8859-1')
+hotel_data = pd.read_csv('CSV_Files/hotel.csv', encoding='ISO-8859-1')
+client_data = pd.read_csv('CSV_Files/client.csv', encoding='ISO-8859-1')
+service_data = pd.read_csv('CSV_Files/service.csv', encoding='ISO-8859-1')
+client_service_data = pd.read_csv('CSV_Files/clientservice.csv', encoding='ISO-8859-1')
 
 
 
